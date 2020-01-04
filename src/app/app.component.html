@@ -1,0 +1,16 @@
+<table
+  border="1"
+>
+  <tr *ngFor="let arrItem of arr">
+    <ng-template ngFor let-item [ngForOf]="arrItem">
+      <cell-block
+        [currentPlayer]="currentPlayer"
+        [itemNumber]="item"
+        [itemStringNumber]="itemString"
+        (onChanged)="onChanged($event)"
+      ></cell-block>
+    </ng-template>
+  </tr>
+</table>
+
+<win-dialog *ngIf="finishPart" [statusWin]="statusWin"></win-dialog>

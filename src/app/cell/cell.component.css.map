@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,UAAU,EAAE,SAAS;;AAGzB,MAAM;EACF,UAAU,EAAE,UAAU",
+"sources": ["cell.component.scss"],
+"names": [],
+"file": "cell.component.css"
+}
